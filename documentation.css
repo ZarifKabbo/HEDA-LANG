@@ -1,0 +1,108 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    background-color: #464646;
+    color: #eee;
+    font-size: 62.5%;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* Main Content Area */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1 {
+    font-size: 3.6rem;
+    color: #eee;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #555;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: #ddd;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #555;
+    padding-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+}
+
+/* Lists */
+ul, ol {
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+ul li, ol li {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: #fff;
+}
+
+/* Code Blocks */
+code {
+    background-color: #222;
+    color: #ff6347;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body, html {
+        font-size: 55%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body, html {
+        font-size: 50%;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
